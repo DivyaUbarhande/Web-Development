@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links & Images Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      margin: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    a {
+      display: block;
+      margin: 10px 0;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #e74c3c;
+    }
+    a:hover {
+      color: #2980b9;
+    }
+    img {
+      margin: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Favorite Websites & Images</h1>
+
+  <!-- Links -->
+  <h2>Favorite Links</h2>
+  <!-- Same tab -->
+  <a href="https://www.wikipedia.org">Visit Wikipedia (Same Tab)</a>
+
+  <!-- New tab -->
+  <a href="https://www.openai.com" target="_blank">Visit OpenAI (New Tab)</a>
+
+  <!-- Relative link -->
+  <a href="index1.html">Go Back to Home Page (Relative Link)</a>
+
+  <!-- Images -->
+  <h2>Favorite Images</h2>
+
+  <!-- Absolute path image -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Golde33443.jpg/320px-Golde33443.jpg" 
+       alt="Cute Dog" width="300" height="200">
+
+  <!-- Relative path image (you must have a local file in your project folder, e.g., cat.jpg) -->
+  <img src="cat.jpg" alt="Cute Dog" width="250" height="200">
+
+</body>
+</html>
